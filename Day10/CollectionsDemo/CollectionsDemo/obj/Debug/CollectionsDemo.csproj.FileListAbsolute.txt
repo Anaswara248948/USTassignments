@@ -1,0 +1,8 @@
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\bin\Debug\CollectionsDemo.exe.config
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\bin\Debug\CollectionsDemo.exe
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\bin\Debug\CollectionsDemo.pdb
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\obj\Debug\CollectionsDemo.csproj.AssemblyReference.cache
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\obj\Debug\CollectionsDemo.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\obj\Debug\CollectionsDemo.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\obj\Debug\CollectionsDemo.exe
+D:\Dot Net\Day10\CollectionsDemo\CollectionsDemo\obj\Debug\CollectionsDemo.pdb

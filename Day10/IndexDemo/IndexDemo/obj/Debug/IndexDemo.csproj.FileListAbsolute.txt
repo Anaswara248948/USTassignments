@@ -1,0 +1,8 @@
+D:\Dot Net\Day10\IndexDemo\IndexDemo\bin\Debug\IndexDemo.exe.config
+D:\Dot Net\Day10\IndexDemo\IndexDemo\bin\Debug\IndexDemo.exe
+D:\Dot Net\Day10\IndexDemo\IndexDemo\bin\Debug\IndexDemo.pdb
+D:\Dot Net\Day10\IndexDemo\IndexDemo\obj\Debug\IndexDemo.csproj.AssemblyReference.cache
+D:\Dot Net\Day10\IndexDemo\IndexDemo\obj\Debug\IndexDemo.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day10\IndexDemo\IndexDemo\obj\Debug\IndexDemo.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day10\IndexDemo\IndexDemo\obj\Debug\IndexDemo.exe
+D:\Dot Net\Day10\IndexDemo\IndexDemo\obj\Debug\IndexDemo.pdb

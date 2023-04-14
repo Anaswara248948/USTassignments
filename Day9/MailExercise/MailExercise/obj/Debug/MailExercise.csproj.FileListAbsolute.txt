@@ -1,0 +1,8 @@
+D:\Dot Net\Day9\MailExercise\MailExercise\bin\Debug\MailExercise.exe.config
+D:\Dot Net\Day9\MailExercise\MailExercise\bin\Debug\MailExercise.exe
+D:\Dot Net\Day9\MailExercise\MailExercise\bin\Debug\MailExercise.pdb
+D:\Dot Net\Day9\MailExercise\MailExercise\obj\Debug\MailExercise.csproj.AssemblyReference.cache
+D:\Dot Net\Day9\MailExercise\MailExercise\obj\Debug\MailExercise.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day9\MailExercise\MailExercise\obj\Debug\MailExercise.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day9\MailExercise\MailExercise\obj\Debug\MailExercise.exe
+D:\Dot Net\Day9\MailExercise\MailExercise\obj\Debug\MailExercise.pdb
