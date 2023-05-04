@@ -1,0 +1,1 @@
+insert into employee(eid, ename, city, salary) values(105,'arun','kozhikode',32000);
