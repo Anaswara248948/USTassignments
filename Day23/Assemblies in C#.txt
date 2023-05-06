@@ -1,0 +1,44 @@
+Assembly Language
+------------------
+* Assembly Language is a low-level programming language. It helps in understanding the programming language of machine code. 
+* In computers, there is an assembler that helps in converting the assembly code into machine code executable. 
+   Symbolic machine code aims to understand the instruction and provide it to machine language for further processing. 
+* Symbolic machine code mainly consists of mnemonic processor instructions or data and other statements or instructions. 
+* It is a low-level, human-readable, programmable language.
+
+Assemblies in C#
+---------------
+* An Assembly is a basic building block of .Net Framework applications. 
+* It is basically a compiled code that can be executed by the CLR. An assembly is a collection of types and resources that are built to work together and form a logical unit of functionality. 
+* An Assembly can be a DLL or exe depending upon the project that we choose.
+
+Assemblies have the following properties:
+
+* Assemblies are implemented as .exe or .dll files.
+* For libraries that target .NET Framework, you can share assemblies between applications by putting them in the global assembly cache (GAC). 
+  You must strong-name assemblies before you can include them in the GAC. For more information, see Strong-named assemblies.
+* Assemblies are only loaded into memory if they're required. If they aren't used, they aren't loaded. 
+  Therefore, assemblies can be an efficient way to manage resources in larger projects.
+* You can programmatically obtain information about an assembly by using reflection. 
+
+Assemblies are basically the following two types:
+
+1. Private Assembly
+2. Shared Assembly
+
+1. Private Assembly 
+   It is an assembly that is being used by a single application only. 
+   Suppose we have a project in which we refer to a DLL so when we build that project that DLL will be copied to the bin folder of our project. 
+   That DLL becomes a private assembly within our project. Generally, the DLLs that are meant for a specific project are private assemblies.
+
+2. Shared Assembly
+ 
+Assemblies that can be used in more than one project are known to be a shared assembly. 
+Shared assemblies are generally installed in the GAC. 
+Assemblies that are installed in the GAC are made available to all the .Net applications on that machine.
+ 
+However, there are one more types of assemblies in .Net, Satellite Assembly, are used for deployment of language and culture specific resources.
+ 
+-- GAC
+ 
+GAC stands for Global Assembly Cache. It is a memory that is used to store the assemblies that are meant to be used by various applications.

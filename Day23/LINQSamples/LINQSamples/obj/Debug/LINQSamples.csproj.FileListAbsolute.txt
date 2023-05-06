@@ -1,0 +1,8 @@
+D:\Dot Net\Day23\LINQSamples\LINQSamples\bin\Debug\LINQSamples.exe.config
+D:\Dot Net\Day23\LINQSamples\LINQSamples\bin\Debug\LINQSamples.exe
+D:\Dot Net\Day23\LINQSamples\LINQSamples\bin\Debug\LINQSamples.pdb
+D:\Dot Net\Day23\LINQSamples\LINQSamples\obj\Debug\LINQSamples.csproj.AssemblyReference.cache
+D:\Dot Net\Day23\LINQSamples\LINQSamples\obj\Debug\LINQSamples.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day23\LINQSamples\LINQSamples\obj\Debug\LINQSamples.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day23\LINQSamples\LINQSamples\obj\Debug\LINQSamples.exe
+D:\Dot Net\Day23\LINQSamples\LINQSamples\obj\Debug\LINQSamples.pdb
