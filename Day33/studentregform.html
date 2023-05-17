@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>studen registration form</title>
+        <h1 align="center">STUDENT REGISTRATION</h1>
+    </head>
+    <body bgcolor="violet">
+        <form method="post" >
+
+            <label>First Name:</label>
+            <input type="text" name="firstname" ><br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lastname"><br>
+
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="male" id="male" checked>Male
+            <input type="radio" name="gender" value="female" id="female">Female
+            <input type="radio" name="gender" value="others" id="others">Others<br>
+
+            <label>Email : </label>
+            <input type="email" name="emai"><br>
+
+            <label>Phone Number :</label>
+            <input type="text" name="countrycode" value="+91" size="2">
+            <input type="text" name="phonenumber" size="10" placeholder="Enter your 10 digit phone no"><br>
+
+            <label>Address : </label>
+            <textarea></textarea><br>
+
+            <label>Course : </label>
+            <select>
+                <option value="select">--Select--</option>
+                <option value="bca">BCA</option>
+                <option value="bcom">B.Com</option>
+                <option value="bba">BBA</option>
+                <option value="mca">MCA</option>
+                <option value="mcom">M.Com</option>
+                <option value="mba">MBA</option>
+            </select><br>
+
+            <label>Range</label>
+            <input type="range" name="range" max="100" min="10"><br>
+
+            <label>User Name :</label>
+            <input type="text" name="username"><br>
+
+            <label>Password :</label>
+            <input type="password" id="pass" name="pass"><br>
+
+            <label>Re-Type Password :</label>
+            <input type="password" id="repass" name="repass"><br>
+
+            <input type="button" value="Submit">
+            <input type="button" value="Cancel">
+
+        </form>
+
+    </body>
+</html>
