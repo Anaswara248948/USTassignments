@@ -1,0 +1,8 @@
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\bin\Debug\SingleTonDemo.exe.config
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\bin\Debug\SingleTonDemo.exe
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\bin\Debug\SingleTonDemo.pdb
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\obj\Debug\SingleTonDemo.csproj.AssemblyReference.cache
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\obj\Debug\SingleTonDemo.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\obj\Debug\SingleTonDemo.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\obj\Debug\SingleTonDemo.exe
+D:\Dot Net\Day34\SingleTonDemo\SingleTonDemo\obj\Debug\SingleTonDemo.pdb

@@ -1,0 +1,8 @@
+D:\Dot Net\Day34\string1\string1\bin\Debug\string1.exe.config
+D:\Dot Net\Day34\string1\string1\bin\Debug\string1.exe
+D:\Dot Net\Day34\string1\string1\bin\Debug\string1.pdb
+D:\Dot Net\Day34\string1\string1\obj\Debug\string1.csproj.AssemblyReference.cache
+D:\Dot Net\Day34\string1\string1\obj\Debug\string1.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day34\string1\string1\obj\Debug\string1.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day34\string1\string1\obj\Debug\string1.exe
+D:\Dot Net\Day34\string1\string1\obj\Debug\string1.pdb
