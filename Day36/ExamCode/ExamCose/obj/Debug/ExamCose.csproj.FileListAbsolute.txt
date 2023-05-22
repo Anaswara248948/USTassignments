@@ -1,0 +1,8 @@
+D:\Dot Net\Day36\ExamCose\ExamCose\bin\Debug\ExamCose.exe.config
+D:\Dot Net\Day36\ExamCose\ExamCose\bin\Debug\ExamCose.exe
+D:\Dot Net\Day36\ExamCose\ExamCose\bin\Debug\ExamCose.pdb
+D:\Dot Net\Day36\ExamCose\ExamCose\obj\Debug\ExamCose.csproj.AssemblyReference.cache
+D:\Dot Net\Day36\ExamCose\ExamCose\obj\Debug\ExamCose.csproj.SuggestedBindingRedirects.cache
+D:\Dot Net\Day36\ExamCose\ExamCose\obj\Debug\ExamCose.csproj.CoreCompileInputs.cache
+D:\Dot Net\Day36\ExamCose\ExamCose\obj\Debug\ExamCose.exe
+D:\Dot Net\Day36\ExamCose\ExamCose\obj\Debug\ExamCose.pdb
