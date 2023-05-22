@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Javascript Sample</title>
+	<h1>JAVASCRIPT</h1>
+
+	<button type="button" onclick='document.write("India")'>Try It</button>
+	<p id="myname"></p>
+ 
+	<body>
+	Hello!
+	<script>
+	console.log(5+5);
+	console.warn("error");
+	document.write("Anaswara");
+	</script>
+	</body>
+</head>
+</html>
