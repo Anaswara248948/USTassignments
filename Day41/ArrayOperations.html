@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //Initialize
+        var arr=[10,20,110,30,40,50,60,70];
+
+        //reverse
+        var no= arr.reverse();
+        console.log(no);
+
+        //greater than 50
+
+        for(var i=0; i<arr.length; i++)
+        {
+            if(arr[i] > 50)
+            {
+                console.log(arr[i]);
+            }
+            else
+            {
+                //console.log("The numbers are not greater than 50 " + arr[i]);
+                // console.log("Exception: " + arr[i]);
+                throw new Error("Numbers are not greater than 50 ");
+            }
+        }
+
+
+        
+
+        // Create a table to display even and odd numbers
+
+let table = document.createElement("table");
+
+let evenColumn = document.createElement("td");
+
+let oddColumn = document.createElement("td");
+
+
+
+// Add even and odd numbers to the table
+
+for (let i = 0; i < reversedArray.length; i++) {
+
+ let number = reversedArray[i];
+
+ let row = document.createElement("tr");
+
+  
+
+ if (number % 2 === 0) {
+
+  let cell = document.createElement("td");
+
+  cell.textContent = number;
+
+  evenColumn.appendChild(cell);
+
+ } else {
+
+  let cell = document.createElement("td");
+
+  cell.textContent = number;
+
+  oddColumn.appendChild(cell);
+
+ }
+
+}
+
+
+
+// Add the columns to the table
+
+table.appendChild(evenColumn);
+
+table.appendChild(oddColumn);
+
+
+
+// Display the table on the page
+
+document.body.appendChild(table);
+
+
+    </script>
+    
+</body>
+</html>
