@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Demo </title>
+    <h1>Class Demo</h1>    
+    </head>
+
+    <body>
+        <script>
+
+            class User{
+
+                constructor(name){
+                    this.name=name;
+                }
+
+                sayHi(){
+                    alert(this.name);
+                }
+
+            }
+
+            alert(typeof User); // it will return function, bcz class is like function
+
+            let user = new User("John");
+            user.sayHi();
+
+            //The prototype is an object that is associated with every functions and objects by default in JavaScript
+            alert(User.prototype.sayHi); // It gives the function code in sayHi method
+
+        </script>
+    </body>
+
+</html>
