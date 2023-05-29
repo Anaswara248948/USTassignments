@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+
+namespace RegEx
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //2
+            try
+            {
+                Console.WriteLine("Enter the sentence");
+                string input = Console.ReadLine();
+                string output = Regex.Replace(input, @"(?i)\b(\w+)(\s+\1)+\b", "$1");
+                Console.WriteLine(output);
+            }
+            catch(Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}

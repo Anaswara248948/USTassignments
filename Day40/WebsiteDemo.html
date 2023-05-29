@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FeatureFlick</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="WebsiteDemo.css">
+    </head>
+
+    <body>
+        <header>
+
+            <nav class="fnav">
+                <div class="left">
+                    <img src="images/fflogo.jpg" alt="" width="70" height="70">
+                    <input type="text" placeholder="Search for Movies, Events and Plays" >
+                </div>
+                <div class="right">
+                    <input type="text" placeholder="Enter Location">
+                    <!-- <i class="fa-solid fa-bars"></i> -->
+                </div>
+            
+                <div class="reg">
+                    <button class="signinbtn" id="button">Sign In</button>
+                </div>
+
+
+
+
+
+                <div class="popup">
+                    <div class="popup-content">
+                        <img src="images/cross.png" alt="" class="close">
+                        <img src="images/user.jpg" alt="" style="width: 60px;">
+                        <div class="input">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <button class="signinbtn" id="alert">Sign In</button>
+                    </div>
+                </div>
+
+
+                <script>
+                    document.getElementById("button").addEventListener("click",function(){
+                        document.querySelector(".popup").style.display="flex";
+                    })
+                    document.querySelector(".close").addEventListener("click",function(){
+                        document.querySelector(".popup").style.display="none";
+                    })
+                </script>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded",function(){
+                        var signinbtn=document.getElementById("alert");
+                        signinbtn.addEventListener("click",function(){
+                            alert("Sign-In Successfull");
+                        });
+                    });
+                </script>
+
+               
+            </nav>
+
+            <nav class="sec-nav">
+                <div class="s-left">
+                    <p><a class="#movies" href="NewPage.html"> Movies</a></p>
+                    <p>streams</p>
+                    <p>Events</p>
+                    <p>Sports</p>
+                    <p>Plays</p>
+                </div>
+                <div class="s-right">
+                    <p>Offers</p>
+                    <p>Gift Cards</p>                    
+                </div>
+            </nav>
+
+                <!-- <div class="main">
+                    <img src="images/pop.jpg" width="1250" height="500">
+                    <div class="carousel-caption">
+                        <h3>Endless Entertainments</h3>
+                        <p>Anywhere... Anytime!!!!</p>
+                      </div>
+                </div> -->
+
+
+
+                <div class="container11">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">   
+     <!-- Indicators -->   
+     <!-- <ol class="carousel-indicators">   
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>   
+      <li data-target="#myCarousel" data-slide-to="1"></li>   
+      <li data-target="#myCarousel" data-slide-to="2"></li>   
+     </ol> -->
+   
+     <!-- Wrapper for slides -->   
+     <div class="carousel-inner">   
+      <div class="item active">   
+       <img src="images/pop.jpg" alt="Taj Mahal" style="width: 1230px; height:480px ;">   
+      </div>
+    
+      <!--<div class="item">   
+       <img src="images/forest.jpg" alt="India Gate" style="width:1230px; height: 380px;">   
+      </div>
+   
+      <div class="item">   
+       <img src="images/bear.webp" alt="Varanasi" style="width:1230px; height: 380px;">   
+      </div>
+   
+      <div class="item">   
+       <img src="images/tickets.webp" alt="temple" style="width:1230px; height: 380px;">   
+      </div> -->
+   
+     <!-- Left and right controls -->   
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">   
+      <span class="glyphicon glyphicon-chevron-left"></span>   
+      <!-- <span class="sr-only">Previous</span>    -->
+     </a>
+   
+     <a class="right carousel-control" href="#myCarousel" data-slide="next">   
+      <span class="glyphicon glyphicon-chevron-right"></span>   
+      <!-- <span class="sr-only">Next</span>    -->
+     </a>   
+    </div>
+   
+   </div>
+
+
+
+
+            
+                <div class="container">
+                    <h1>Recommended Movies</h1>
+                    <div class="card">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS40LzEwICAzNS42SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357072-jacnvskvpe-portrait.jpg" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-MzIuN0sgbGlrZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00058086-hvqdkpffsx-portrait.jpg" alt="">
+                      <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/live-malayalam-et00355771-1683012470.jpg" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@like_202006280402.png,ox-24,oy-617,ow-29:ote-NC41SyBsaWtlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00359060-xmrwvvavad-portrait.jpg" alt="">
+                      <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/neymar-et00358905-1683288006.jpg" alt="">
+                    </div>
+                  </div>
+
+                  <div class="banner">
+                    <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png" alt="" width="1180">
+                  </div>
+
+
+                  <div class="container">
+                    <h1>Best Of Live Events</h1>
+                    <div class="card">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MzArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/kids-zone-collection-202211140440.png" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTUrIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/comedy-shows-collection-202211140440.png" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-NCBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/music-shows-collection-202211140440.png" alt="">
+                      <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/esports-collection-202211140440.png" alt="">
+                    </div>
+                  </div>
+            
+                
+            
+        </header>
+
+
+
+        <footer>
+
+
+
+            <div class="linbreaker">
+          
+            </div>
+          
+            <div class="container">
+          
+             <table margin="center">
+          
+              <tr>
+          
+               <td>Questions? Call 000-800-040-1843</td>
+          
+              </tr>
+          
+              <tr>
+          
+               <td>FAQ</td>
+          
+               <td>Help Centre</td>
+          
+               <td>Account</td>
+          
+               <td>Media Centre</td>
+          
+              </tr>
+          
+              <tr>
+          
+               <td>Investor Relations</td>
+          
+               <td>Jobs</td>
+          
+               <td>Ways to Watch</td>
+          
+               <td>Terms of Use</td>
+          
+              </tr>
+          
+              <tr>
+          
+               <td>Privacy</td>
+          
+               <td>Cookie Preferences</td>
+          
+               <td>Corporate Information</td>
+          
+               <td>Contact Us</td>
+          
+              </tr>
+          
+              <tr>
+          
+               <td>Speed Test</td>
+          
+               <td>Legal Notices</td>
+          
+              </tr>
+          
+             </table>
+          
+            </div>
+          
+           </footer>   
+          
+          
+        
+    </body>
+
+</html>
