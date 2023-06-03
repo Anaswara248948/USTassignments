@@ -1,0 +1,316 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-color: black;
+}
+
+.fnav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 6px;
+  color: white;
+  background-color: rgb(42,42,68);
+}
+
+.fnav .left{
+  display: flex;
+  margin-top: 10px;
+}
+
+.left img{
+  width: 22%;
+}
+
+.left input{
+  margin-inline: 11px;
+  width:420px;
+  height: 33px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-top: 16px;
+  border-radius: 2px;
+}
+
+.fnav .right{
+  display: flex;
+  margin-inline: 16px ;
+}
+
+.right p{
+  margin-inline: 22px;
+  
+}
+
+.right{
+  
+  width: 120px;
+  height: 15px;
+  border: none;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.reg{
+  margin-top: 30px;
+}
+
+.signinbtn{
+  margin-inline: 22px;
+  width: 80px;
+  height: 35px;
+  border: none;
+  border-radius: 2px;
+  background-color: red;
+  color: azure;
+}
+
+.signinbtn:hover{
+  background: white;
+  color: black;
+}
+
+.popup{
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.popup-content{
+  height: 330px;
+  width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+input{
+  margin:20px auto; 
+  display:block; 
+  width:120px; 
+  height: 20px; 
+  padding: 8px; 
+  border: 2px solid gray; 
+ }
+ 
+ .close{ 
+  position: absolute; 
+  top: -15px; 
+  right:-15px; 
+  background: #fff;
+  height: 20px; 
+  width: 20px; 
+  border-radius: 50%; 
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75); 
+  cursor: pointer; 
+ }
+
+.right i{
+  margin-inline: 22px;
+  font-size: 22px;
+}
+
+.sec-nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 9px;
+  background-color: rgb(26,26,48);
+  color: azure;
+}
+
+.sec-nav .s-left{
+  display: flex;
+}
+
+.sec-nav .s-right{
+  display: flex;
+}
+
+.sec-nav p:hover{
+  color: rgb(245,70,99);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.s-left p a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.s-left p{
+  margin-inline-start: 18px;
+  
+}
+
+.s-right p{
+  margin-inline-start: 18px;
+}
+
+main img{
+  
+  margin-top: 0;
+  transform: translate(50px, 100px);
+  align-items: center;
+  height: 120px;
+  width: 350px;
+
+}
+
+/* .main{
+  width: 800%;
+  height: 80%;
+  align-items: center;
+} */
+
+/* .carousel-caption{
+  color: bisque;
+} */
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #140303;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-size: 60px;
+  transform: translate(20px,-300px);
+}
+
+
+.carousel-caption11{
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #1b1a1a;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(248, 243, 243, 0.6);
+  font-size: 20px;
+  transform: translate(20px, -270px);
+}
+
+.container h1{
+  text-align: center;
+  padding: 22px;
+  color: beige;
+}
+
+.container .card{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}  
+
+.container1 .card1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+} 
+
+.card img{
+  width: 16%;
+  margin-block: 15px;
+  border-radius: 5px;
+}
+
+
+.card1 img{
+  width: 16%;
+  margin-block: 15px;
+  border-radius: 5px;
+}
+
+
+
+
+footer{        
+          
+          
+  background-color: rgba(11, 36, 90, 0.7);
+
+  height: 400px;
+
+ }
+
+ footer .container{
+
+   margin-top: 40px;
+
+  margin-left: 350px;
+
+  margin-right: 350px;
+
+  background-color: rgba(7, 25, 63, 0.7);
+
+  color: white;
+
+ }
+
+ th,td{
+
+  padding-right: 37px;
+
+  padding-top: 14px;
+
+  text-align: left;
+
+ }
+
+ .lngbtn2{
+
+  background:none;
+
+  color: rgb(143, 134, 134);
+
+  width: 100px;
+
+  height: 42px;
+
+  font-weight: normal;
+
+  margin-top: 20px;
+
+  margin-right: 40px;
+
+  border-radius: 3px;
+
+  border-color:white;
+
+  /* font-weight: bold; */
+
+  font-size: 15px;
+
+ }
+
+ .netflixindia{
+
+  margin-top: 20px;
+
+ }
+
+ .plusicon{
+
+  font-size: 40px;
+
+  margin-right: 30px;
+
+ } 
